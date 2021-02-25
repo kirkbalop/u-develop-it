@@ -95,7 +95,7 @@ router.delete('/voter/:id', (req, res) => {
             return;
         }
 
-        res.json({ message: 'deleted', changes: this.changers });
+        res.json({ message: 'deleted', changes: this.changes });
     });
 });
 
